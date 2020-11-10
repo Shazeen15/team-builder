@@ -6,4 +6,11 @@
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(157, 130, 182);
+  margin: 2%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

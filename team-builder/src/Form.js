@@ -4,9 +4,9 @@ import './App.css';
 
 function Form(props) {
     const {names} = props;
-    console.log(names);
+    // console.log('formNames', names);
     return (
-        <div>
+        <div className='formcard'>
             <h1>Form</h1>
             {names.map((names) => (
                     <div key={names.id} className='teamNames'>
